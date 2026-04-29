@@ -15,7 +15,7 @@ let money = 255;
 /****************************
  Main code
  ****************************/
-console.log("hi "+ Username + "as of "+ year +"you are " + age + "years old. You have " + money + " dollars")
+console.log("hi "+ Username + " as of "+ year +" you are " + age + " years old. You have " + money + " dollars")
 
 
 /****************************
