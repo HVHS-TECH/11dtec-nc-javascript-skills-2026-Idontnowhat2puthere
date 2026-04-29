@@ -1,6 +1,6 @@
 
 /****************************
-Name of task:
+Name of task: Variables
 ****************************/
 console.log("Running t01_introduction.js")
 console.log("hello")
