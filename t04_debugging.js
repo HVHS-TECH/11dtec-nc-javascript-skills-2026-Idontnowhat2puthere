@@ -1,10 +1,10 @@
 konsole.log("Task 4 - Debugging")
 
 // calculate the area
-var area = length + width;
+var area = 2 (length * width); 
 
 // calculate the perimeter
-var perimeter = 2  (length * width); 
+var perimeter = (length + width);  
 
 // Set up the size of the page.
 var length = 8;
