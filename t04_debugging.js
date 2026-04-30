@@ -6,7 +6,7 @@ var area = 2 (length * width);
 // calculate the perimeter
 var perimeter = (length + width);  
 
-// Set up the size of the page.
+// Set up the size of the page
 var length = 8;
 var width = 8;
 
