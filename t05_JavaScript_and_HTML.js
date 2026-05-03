@@ -1,8 +1,7 @@
 /****************************
-Name of task: Maths
+Name of task: Javascript and HTML
 ****************************/
-console.log("Running t01_introduction.js")
-console.log("hello")
+
 
 //varibales
 let username = "James";
