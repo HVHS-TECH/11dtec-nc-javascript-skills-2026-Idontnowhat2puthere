@@ -22,10 +22,10 @@ OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>"
  ****************************/
 
 OUTPUT.innnerHTML += ("<p>Hi "+ username + " as of "+ year +" you are " + age + " years old. You were born in " + birthYear)
-OUTPUT.innnerHTML +=("In 10 years you'll be " + oldAge + "year old ")
-console.log(" You have " + money + " dollars ")
-console.log("You spend half of your money, now you have " + halfMoney)
-console.log("Then you get $3, now you have" + (halfMoney + 3) + "dollars")
+OUTPUT.innnerHTML += ("In 10 years you'll be " + oldAge + "year old ")
+OUTPUT.innnerHTML += (" You have " + money + " dollars ")
+OUTPUT.innnerHTML += ("You spend half of your money, now you have " + halfMoney)
+OUTPUT.innnerHTML += ("Then you get $3, now you have" + (halfMoney + 3) + "dollars")
 
 
 /****************************
