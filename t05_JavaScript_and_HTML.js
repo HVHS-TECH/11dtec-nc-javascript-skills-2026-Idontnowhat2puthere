@@ -19,6 +19,7 @@ halfMoney = money / 2;
 /****************************
  Main code
  ****************************/
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 console.log("Hi "+ username + " as of "+ year +" you are " + age + " years old. You were born in " + birthYear)
 console.log("In 10 years you'll be " + oldAge + "year old ")
 console.log(" You have " + money + " dollars ")
