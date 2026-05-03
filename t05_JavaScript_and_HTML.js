@@ -1,7 +1,7 @@
 /****************************
 Name of task: Javascript and HTML
 ****************************/
-
+console.log("Running t05_javascriptAnd Html.js")
 
 //varibales
 let username = "James";
