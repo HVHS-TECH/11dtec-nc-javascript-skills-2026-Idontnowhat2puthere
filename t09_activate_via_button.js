@@ -1,10 +1,3 @@
-/****************************
-Name of task: Javascript and HTML
-****************************/
-Name: James Beaton
-Task: Activate JavaScript Via Button
-Description: Displays user info when button is clicked
-****************************/
 console.log("Running t09_activate_via_button.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
