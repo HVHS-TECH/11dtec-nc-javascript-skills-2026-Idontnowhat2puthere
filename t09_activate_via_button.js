@@ -7,6 +7,9 @@ Description: Displays user info when button is clicked
 ****************************/
 console.log("Running t09_activate_via_button.js")
 
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+function start() {
+
 //varibales
 let username = "James";
 let year = 2026;
@@ -18,9 +21,11 @@ oldAge = age + 10;
 birthYear = year - age;
 money = money / 2; 
 halfMoney = money / 2;
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+
+//clear output (important)
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>"; 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
 
 /****************************
  Main code
@@ -37,11 +42,10 @@ OUTPUT.innerHTML += ("<p>Then you get $3, now you have" + (halfMoney + 3) + "dol
 /****************************
  functions
  ****************************/
-function Welcome(){
-OUTPUT.innerHTML += "<p>Welcome</p>";
-}
 
 Welcome(); 
+
+}
 
 function start() {
     spaceForJavaScriptOutput.innerHTML
