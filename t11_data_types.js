@@ -6,12 +6,13 @@ function start() {
 
 //get value from input box
 let username = document.getElementById("usernameInput").value; 
+let age = number(document.getElementById("ageInput").value); 
+let money = number(document.getElementById("moneyInput").value); 
+
 
 
 //varibales
 let year = 2026;
-let age = 15;
-let money = 255;
 let birthYear = 2011;
 let oldAge;
 oldAge = age + 10;
