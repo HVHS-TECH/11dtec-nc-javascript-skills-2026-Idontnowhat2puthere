@@ -14,8 +14,7 @@ let money = Number(document.getElementById("moneyInput").value);
 //varibales
 let year = 2026;
 let birthYear = 2011;
-let oldAge;
-oldAge = age + 10;
+let oldAge = age + 10;
 birthYear = year - age;
 money = money / 2; 
 let halfMoney = money / 2;
@@ -40,6 +39,16 @@ OUTPUT.innerHTML += ("<p>Then you get $3, now you have" + (halfMoney + 3) + "dol
 /****************************
  functions
  ****************************/
+ let finalMoney = halfMoney + 3;
+
+ OUTPUT.innerHTML += ("<p>A chocolate bar costs $4</p>");
+
+ if (finalMoney >= 4) {
+     OUTPUT.innerHTML += ("<p>You CAN afford a chocolate bar</p>");
+
+    } else {
+     OUTPUT.innerHTML += ("<p>Sorry you CAN'T afford a chocolate bar</p>");
+}
 
 Welcome(); 
 
