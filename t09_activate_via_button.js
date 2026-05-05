@@ -38,4 +38,11 @@ OUTPUT.innerHTML += "<p>Welcome</p>";
 
 Welcome(); 
 
+function start() {
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer = currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
+}
+
 // This is a single line comment/
