@@ -1,4 +1,4 @@
-console.log("Running t09_activate_via_button.js")
+console.log("Running t10_input_from_HTML.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function start() {
