@@ -6,8 +6,8 @@ function start() {
 
 //get value from input box
 let username = document.getElementById("usernameInput").value; 
-let age = number(document.getElementById("ageInput").value); 
-let money = number(document.getElementById("moneyInput").value); 
+let age = Number(document.getElementById("ageInput").value); 
+let money = Number(document.getElementById("moneyInput").value); 
 
 
 
@@ -43,10 +43,6 @@ OUTPUT.innerHTML += ("<p>Then you get $3, now you have" + (halfMoney + 3) + "dol
 
 Welcome(); 
 
-}
-
-function Welcome(){
-OUTPUT.innerHTML += "<p>Welcome</p>";
 }
 
 function start() {
