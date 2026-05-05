@@ -16,6 +16,7 @@ money = money / 2;
 halfMoney = money / 2;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>"; 
+const OUPUT = document.getElementById("spaceForJavaScriptOutput");
 
 /****************************
  Main code
