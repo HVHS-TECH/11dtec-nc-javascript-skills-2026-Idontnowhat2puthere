@@ -1,6 +1,7 @@
 console.log("Running t11_data_types.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
 function start() {
 
 //get value from input box
