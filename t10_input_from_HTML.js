@@ -8,17 +8,15 @@ let username = document.getElementById("usernameInput").value;
 
 
 //varibales
-let username = "James";
 let year = 2026;
 let age = 15;
 let money = 255;
 let birthYear = 2011;
 let oldAge;
-let halfMoney;
 oldAge = age + 10;
 birthYear = year - age;
 money = money / 2; 
-halfMoney = money / 2;
+let halfMoney = money / 2;
 
 
 //clear output (important)
