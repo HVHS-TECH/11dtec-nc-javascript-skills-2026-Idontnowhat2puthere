@@ -38,11 +38,12 @@ OUTPUT.innerHTML += "<p>Welcome</p>";
 
 Welcome(); 
 
-function displayWelcome(name, age){
-    OUTPUT.innerHTML += "<p>Welcome to the page " + name +"</p>";
-    OUTPUT.innerHTML += "<p>You are " + age +" years old</p>";
+function displayWelcome(_name, _age){
+    OUTPUT.innerHTML += "<p>Welcome to the page " +_name +"</p>";
+    OUTPUT.innerHTML += "<p>You are " +_age+" years old</p>";
 }
 
-displayWelcome();
+displayWelcome("Ms Alice", 16);
+displayWelcome("Mr Bob", 99);
 
 // This is a single line comment/
