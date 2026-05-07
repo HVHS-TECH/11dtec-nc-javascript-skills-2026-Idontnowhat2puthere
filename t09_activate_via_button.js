@@ -5,7 +5,6 @@ function start() {
 
 //varibales
 let username = "James";
-let year = 2026;
 let age = 15;
 let money = 255;
 let birthYear = 2011;
