@@ -10,6 +10,7 @@ let age = 15;
 let money = 255;
 let birthYear = 2011;
 let oldAge;
+let currentYear = 2026;
 oldAge = age + 10;
 birthYear = year - age;
 money = money / 2; 
