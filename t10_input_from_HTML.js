@@ -1,7 +1,6 @@
 console.log("Running t10_input_from_HTML.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-function start() {
 
 //get value from input box
 let username = document.getElementById("usernameInput").value; 
@@ -44,7 +43,8 @@ OUTPUT.innerHTML += ("<p>The current year is" + currentYear)
 
 Welcome(); 
 
-}
+
+start();
 
 function Welcome(){
 OUTPUT.innerHTML += "<p>Welcome</p>";
