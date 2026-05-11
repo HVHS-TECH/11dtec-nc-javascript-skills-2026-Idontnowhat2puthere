@@ -61,6 +61,8 @@ function start() {
     spaceForJavaScriptOutput.innerHTML
 }
 
-
+function calculateChange() {
+    
+}
 
 // This is a single line comment/
