@@ -45,6 +45,10 @@ Welcome();
 
 }
 
+if (money < 4){
+    console.log("You're broke")
+}
+
 function Welcome(){
 OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
