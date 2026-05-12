@@ -46,7 +46,7 @@ Welcome();
 }
 
 function Welcome(){
-OUTPUT.innerHTML += "<p>Welcome</p>";
+OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
 Welcome(); 
