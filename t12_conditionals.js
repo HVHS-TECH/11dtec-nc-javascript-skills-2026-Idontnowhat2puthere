@@ -49,6 +49,8 @@ function Welcome(){
 OUTPUT.innerHTML += "<p>Welcome</p>";
 }
 
+Welcome(); 
+
 function start() {
     spaceForJavaScriptOutput.innerHTML
     spaceForJavaScriptOutput.innerHTML
