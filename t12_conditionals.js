@@ -17,8 +17,6 @@ let birthYear = 2011;
 let oldAge;
 oldAge = age + 10;
 birthYear = year - age;
-money = money / 2; 
-let halfMoney = money / 2;
 
 
 //clear output (important)
