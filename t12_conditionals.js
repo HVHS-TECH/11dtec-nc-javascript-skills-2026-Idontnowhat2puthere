@@ -17,7 +17,7 @@ let birthYear = 2011;
 let oldAge;
 oldAge = age + 10;
 birthYear = year - age;
-let currentYear = 2026;
+
 
 
 //clear output (important)
@@ -34,7 +34,7 @@ OUTPUT.innerHTML += ("<p>In 10 years you'll be " + oldAge + "year old</p>")
 OUTPUT.innerHTML += ("<p>You have " + money + " dollars</p>")
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
 OUTPUT.innerHTML += ("<p>Then you get $3, now you have" + (halfMoney + 3) + "dollars</p>")
-OUTPUT.innerHTML += ("<p>The current year is" + currentYear)
+OUTPUT.innerHTML += ("<p>The current year is" + year)
 OUTPUT.innerHTML += ("<p>A chocolate bar costs $4</p>")
 
 /****************************
@@ -59,7 +59,7 @@ Welcome();
 function start() {
     spaceForJavaScriptOutput.innerHTML
     spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
+    answer = year - userAge;
     spaceForJavaScriptOutput.innerHTML
 }
 
