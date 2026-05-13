@@ -8,12 +8,10 @@ function start() {
 let username = document.getElementById("usernameInput").value; 
 let age = Number(document.getElementById("ageInput").value); 
 let money = Number(document.getElementById("moneyInput").value); 
-
+let year = 2026;
 
 
 //varibales
-let year = 2026;
-let birthYear = 2011;
 let oldAge;
 oldAge = age + 10;
 birthYear = year - age;
