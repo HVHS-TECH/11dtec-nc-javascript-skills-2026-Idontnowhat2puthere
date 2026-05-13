@@ -7,7 +7,7 @@ function start() {
 //get value from input box
 let username = document.getElementById("usernameInput").value; 
 let age = Number(document.getElementById("ageInput").value); 
-let money = Number(document.getElementById("moneyInput").value); 
+let a = Number(document.getElementById("moneyInput").value); 
 let year = 2026;
 
 
