@@ -2,19 +2,18 @@ console.log("Running t12_conditionals.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-function start() {
 
 //get value from input box
 let username = document.getElementById("usernameInput").value; 
 let age = Number(document.getElementById("ageInput").value); 
-let a = Number(document.getElementById("moneyInput").value); 
+let money = Number(document.getElementById("moneyInput").value); 
 let year = 2026;
 
 
 //varibales
 let oldAge;
 oldAge = age + 10;
-birthYear = year - age;
+let = birthYear = year - age;
 
 
 
@@ -31,7 +30,6 @@ OUTPUT.innerHTML += ("<p>You were born in " + birthYear)
 OUTPUT.innerHTML += ("<p>In 10 years you'll be " + oldAge + "year old</p>")
 OUTPUT.innerHTML += ("<p>You have " + money + " dollars</p>")
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
-OUTPUT.innerHTML += ("<p>Then you get $3, now you have" + (halfMoney + 3) + "dollars</p>")
 OUTPUT.innerHTML += ("<p>The current year is" + year)
 OUTPUT.innerHTML += ("<p>A chocolate bar costs $4</p>")
 
@@ -41,15 +39,13 @@ OUTPUT.innerHTML += ("<p>A chocolate bar costs $4</p>")
 
 Welcome(); 
 
+
+function Welcome(){
+OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
 if (money < 4){
     console.log("You're broke")
-}
-    
-
-function Welcome(){
-OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
 Welcome(); 
