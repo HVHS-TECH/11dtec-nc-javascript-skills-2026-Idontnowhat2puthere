@@ -36,7 +36,7 @@ OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 function start() {
 dollars = Number(document.getElementById("moneyInput").value);
 age = Number(document.getElementById("ageInput").value);
-document.getElementById("usernameInput").value;
+username = (document.getElementById("usernameInput").value);
 
 if (dollars < 4) {
 console.log("You're broke");
