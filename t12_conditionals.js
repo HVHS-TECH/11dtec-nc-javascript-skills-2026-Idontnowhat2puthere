@@ -7,7 +7,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // get value from input box
 let username = document.getElementById("usernameInput").value;
 let age = Number(document.getElementById("ageInput").value);
-let dollars = Number(document.getElementById("moneyInput").value);
+let dollars = 0;
 let year = 2026;
 
 // variables
@@ -27,7 +27,6 @@ OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
 
 OUTPUT.innerHTML += "<p>In 10 years you'll be " + oldAge + " years old</p>";
 
-OUTPUT.innerHTML += "<p>You have " + dollars + " dollars</p>";
 
 
 OUTPUT.innerHTML += "<p>The current year is " + year + "</p>";
@@ -43,6 +42,7 @@ OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
 function start() {
+dollars = Number(document.getElementById("moneyInput").value);
 if (dollars < 4) {
 console.log("You're broke");
 }
