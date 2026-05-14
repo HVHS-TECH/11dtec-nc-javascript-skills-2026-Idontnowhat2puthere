@@ -12,6 +12,7 @@ let year = 2026;
 let oldAge = age + 10;
 let birthYear = year - age;
 let halfMoney = money / 2;
+let dollars = 5;
 
 // clear output
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
@@ -26,13 +27,11 @@ OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
 
 OUTPUT.innerHTML += "<p>In 10 years you'll be " + oldAge + " years old</p>";
 
-OUTPUT.innerHTML += "<p>You have " + money + " dollars</p>";
+OUTPUT.innerHTML += "<p>You have " + dollars + " dollars</p>";
 
 OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + halfMoney + " dollars</p>";
 
 OUTPUT.innerHTML += "<p>The current year is " + year + "</p>";
-
-OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 
 /****************************
 functions
