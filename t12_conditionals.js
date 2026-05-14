@@ -5,14 +5,13 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // get value from input box
 let username = document.getElementById("usernameInput").value;
 let age = Number(document.getElementById("ageInput").value);
-let money = Number(document.getElementById("moneyInput").value);
+let dollars = Number(document.getElementById("moneyInput").value);
 let year = 2026;
 
 // variables
 let oldAge = age + 10;
 let birthYear = year - age;
 let halfMoney = money / 2;
-let dollars = 5;
 
 // clear output
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
