@@ -1,60 +1,57 @@
+
 console.log("Running t13_functions_return.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-
-//get value from input box
-let username = document.getElementById("usernameInput").value; 
-let age = Number(document.getElementById("ageInput").value); 
-let money = Number(document.getElementById("moneyInput").value); 
+// get value from input box
+let username = 0;
+let age = 0;
+let dollars = 0;
 let year = 2026;
 
+// variables
+let oldAge = age + 10;
+let birthYear = year - age;
 
-//varibales
-let oldAge;
-oldAge = age + 10;
-let = birthYear = year - age;
+// clear output
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
+/****************************
+Main code
+****************************/
 
-
-//clear output (important)
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>"; 
 
 
 /****************************
- Main code
- ****************************/
+functions
+****************************/
 
-OUTPUT.innerHTML += ("<p>Hi "+ username + " as of "+ year +" you are " + age + " years old.</p>") 
-OUTPUT.innerHTML += ("<p>You were born in " + birthYear)
-OUTPUT.innerHTML += ("<p>In 10 years you'll be " + oldAge + "year old</p>")
-OUTPUT.innerHTML += ("<p>You have " + money + " dollars</p>")
-OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
-OUTPUT.innerHTML += ("<p>The current year is" + year)
-OUTPUT.innerHTML += ("<p>A chocolate bar costs $4</p>")
+Welcome();
 
-/****************************
- functions
- ****************************/
-
-Welcome(); 
-
-
-function Welcome(){
+function Welcome() {
 OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
-if (money < 4){
-    console.log("You're broke")
-}
-
-Welcome(); 
-
 function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = year - userAge;
-    spaceForJavaScriptOutput.innerHTML
+dollars = Number(document.getElementById("moneyInput").value);
+age = Number(document.getElementById("ageInput").value);
+username = (document.getElementById("usernameInput").value);
+
+if (dollars < 4) {
+console.log("You're broke");
 }
 
-// This is a single line comment/
+if (dollars >= 4) {
+console.log("Rich boy");
+}
+
+OUTPUT.innerHTML += "<p>Hi " + username + " as of " + year + " you are " + age + " years old.</p>";
+
+OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
+
+OUTPUT.innerHTML += "<p>In 10 years you'll be " + oldAge + " years old</p>";
+
+OUTPUT.innerHTML += "<p>You have " + dollars + " dollars</p>";
+
+OUTPUT.innerHTML += "<p>The current year is " + year + "</p>";
+}
