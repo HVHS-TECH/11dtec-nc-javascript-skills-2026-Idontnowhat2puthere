@@ -43,6 +43,10 @@ function Welcome() {
 OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
-if (money < 4) {
+if (dollars < 4) {
 console.log("You're broke");
+}
+
+if (dollars > 4) {
+console.log("Rich boy");
 }
