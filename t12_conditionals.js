@@ -1,5 +1,4 @@
 
-
 console.log("Running t12_conditionals.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
@@ -42,7 +41,7 @@ if (dollars < 4) {
 console.log("You're broke");
 }
 
-if (dollars > 4) {
+if (dollars >= 4) {
 console.log("Rich boy");
 }
 
